@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sisi/static/css/main.e359007b.css",
+    "main.js": "/sisi/static/js/main.eeac3494.js",
+    "static/js/358.feaf2491.chunk.js": "/sisi/static/js/358.feaf2491.chunk.js",
+    "index.html": "/sisi/index.html",
+    "main.e359007b.css.map": "/sisi/static/css/main.e359007b.css.map",
+    "main.eeac3494.js.map": "/sisi/static/js/main.eeac3494.js.map",
+    "358.feaf2491.chunk.js.map": "/sisi/static/js/358.feaf2491.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e359007b.css",
+    "static/js/main.eeac3494.js"
+  ]
+}
