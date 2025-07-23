@@ -1,0 +1,113 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 240px;
+  right: 0;
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 24px;
+}
+
+.search-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  color: #6C7688;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px 8px 36px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f7fafc;
+  transition: all 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4299e1;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.control-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.control-btn:hover {
+  background-color: #f7fafc;
+}
+
+.control-btn:hover .control-icon {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(8%) saturate(1008%) hue-rotate(169deg) brightness(94%) contrast(86%);
+}
+
+.control-icon {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) saturate(100%) invert(47%) sepia(6%) saturate(1077%) hue-rotate(169deg) brightness(96%) contrast(88%);
+  transition: filter 0.2s;
+}
+
+.add-btn {
+  background-color: #4299e1;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #3182ce;
+}
+
+.add-btn .control-icon {
+  color: white;
+  filter: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    left: 0;
+  }
+  
+  .search-container {
+    display: none;
+  }
+} 
